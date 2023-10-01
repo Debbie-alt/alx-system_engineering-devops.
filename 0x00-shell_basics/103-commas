@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l --format=commas . | sort -k 1,1 | sed -n '1!p' | tr '\n' ',' | sed -n '$p'
