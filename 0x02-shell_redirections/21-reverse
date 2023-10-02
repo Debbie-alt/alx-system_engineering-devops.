@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "YourInputText" | rev 
+read input && echo "$input" | rev  
